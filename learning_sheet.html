@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<head>
+  <h1 align="center"; style="color:white" > HTML & CSS Learning Sheet </h1>
+  <link href="./style.css" type="text/css" rel="stylesheet">
+
+  <body bgcolor="black">
+  <h1>Specificity</h1>
+    <p>
+     IDs are the most specific selector in CSS, followed by classes, and finally, tags.
+    </p>
+  <h1>
+    Inserting CSS into HTML 
+  </h1>
+    <p> Insert the following snippet into the head: 
+      
+    <xmp class="example">
+    <code> <link href="./style.css" type="text/css" rel="stylesheet"> </code>
+    </xmp>
+
+     
+    </p>
+    <h1>Review CSS Selectors</h1>
+    <ul>
+<li>CSS can select HTML elements by tag, class, or ID.</li>
+<li>Multiple CSS classes can be applied to one HTML element.</li>
+<li>Classes can be reusable, while IDs can only be used once.</li>
+<li>IDs are more specific than classes, and classes are more specific than tags. That means IDs will override any styles from a class,<br>and classes will override any styles from a tag selector.</br> </li>
+<li>Multiple selectors can be chained together to select an element. This raises the specificity, but can be necessary.</li>
+<li>Nested elements can be selected by separating selectors with a space.</li>
+<li>The <b>!important</b> flag will override any style, however it should almost never be used, as it is extremely difficult to override.</li>
+<li>Multiple unrelated selectors can receive the same styles by separating the selector names with commas.</li>
+    </ul>
+  </body>
